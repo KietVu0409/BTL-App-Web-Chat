@@ -1,0 +1,75 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native files
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.env
+
+# Metro
+.metro-health-check*
+
+# macOS
+.DS_Store
+*.pem
+
+# Local environment files
+.env
+.env.* 
+.env*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Build output
+build/
+out/
+target/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Debugging
+debug/
+*.debug.*
+
+# Coverage reports
+coverage/
+*.lcov
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
